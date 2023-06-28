@@ -1,0 +1,144 @@
+.ContactUs-main{
+
+    background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
+    width: 100%;
+    height: auto;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;  
+    padding:3rem;
+    color:rgb(90, 12, 12);
+}
+.separator{
+   
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.form{
+    width:100%;
+    height:500px;
+    flex-direction: column;  
+    margin: 3rem;
+}
+.input-fields{
+    display: flex;  
+    flex-direction: column;
+}
+.main input{
+    margin: 2rem 0;
+    background-color: white;
+    color:grey;
+    border-radius: 5px;
+    width:100%;
+   padding:.5rem 1rem;
+   justify-content: space-between;
+    border: 3px solid rgba(120,120,120,0.5);
+}
+.main{
+    margin-top: 2rem;
+}
+.submit-Button{
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    background: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+    border: none;
+    border-radius: 4px;
+    transition: all 300ms ease-in;
+    width:30%;
+    margin: auto;
+  }
+  .submit-Button:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+  }
+.main>p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(49, 49, 120);
+}
+.guide {
+    width: 90%;
+    height: auto;
+    margin:auto;
+    border: 2px solid pink;
+    background:url("https://edge.mwallpapers.com/photos/celebrities/hd-wallpapers/minimalism-leaves-branch-simple-background-plants-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-wc4ra.jpg");
+    margin-bottom: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.guide-head{
+    text-align:lefst;
+    font-weight: 500px;
+    font-size: 2rem;
+    padding:2rem 3.5rem;
+    color:rgb(180, 22, 48);
+    text-decoration: underline;
+}
+.list{
+   line-height: 1.5rem;
+    margin: 2rem;
+    padding: 0 2rem;
+    color:rgb(118, 63, 71);
+}
+.footer{
+    width:100%;
+    height:auto;
+    background-color: hsl(20, 71%, 80%,0.5);
+    padding:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div{
+    background-color: hwb(56 81% 3%) ;
+    width:90%;
+    height:auto;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.first{
+    text-transform: capitalize;
+    
+    padding:1rem;
+
+}
+.first p{
+    font-size: 1.5rem;
+    color:rgb(90, 12, 12);
+}
+.para{
+    margin: 2rem;
+    color:rgb(165, 36, 58);
+}
+.motto{
+   color:rgb(135, 88, 96);
+   padding:2rem;
+}
+.footer-text{
+   font-size: 0.8rem;
+   color: grey;
+   margin: 2rem;
+}
+.icon-section{
+    margin: 1rem;
+}
+.icon-section a {
+    margin: 0.5rem;
+    color:rgb(67, 65, 65)
+}
+.icon-section a:hover{
+    color:rgb(228, 26, 60);
+}
+@media (max-width:716){
+    .separator{
+        display: flex;
+    }
+}

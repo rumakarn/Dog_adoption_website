@@ -1,0 +1,64 @@
+.h-wrapper{
+    background:#2d2a30;
+    color:white;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.78);
+}
+.h-menu{
+    gap:2rem;
+}
+.h-menu>*hover{
+    cursor:pointer;
+}
+.active_class{
+    color:rgb(107, 107, 205);
+}
+.ham {
+    display: none;
+    position:50px;
+    top: 7px;
+    color: #000;
+    
+}
+.nav-list{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav-list li{
+        margin-right: 20px;
+        color: #f1f1f1;
+        cursor: pointer;
+}
+
+
+@media screen and (max-width: 500px){
+
+    .nav-list {
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-list li:nth-child(1){
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 50px;
+    }
+    .nav-list li{
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+    .ham{
+        display: block;
+    }
+
+}
