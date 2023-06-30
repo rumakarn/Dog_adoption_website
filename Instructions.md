@@ -60,10 +60,10 @@ Contributions to the "AdoptaDoggo" project are welcome! If you would like to con
 4. Ensure that your changes are well-documented and accompanied by appropriate test cases.
 5. Commit and push your changes to your forked repository.
 6. Submit a pull request (PR) to the main project repository, describing the purpose and details of your contribution.
-7. The project maintainers will review your PR, provide feedback, and merge it if it meets the project's standards and requirements.
+7. I will review your PR, provide feedback, and merge it if it meets the project's standards and requirements.
 
 ## 6. Support and Contact
-If you have any questions, issues, or feedback regarding the "AdoptaDoggo" project, please feel free to reach out to the project maintainers. You can contact us through the following channels:
+If you have any questions, issues, or feedback regarding the "AdoptaDoggo" project, please feel free to reach out. You can contact me through the following channels:
 
 - GitHub Issues: [https://github.com/your-repo/adoptadoggo/issues](https://github.com/your-repo/adoptadoggo/issues)
 - Email: rumakarn70@gmail.com
