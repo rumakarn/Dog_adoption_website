@@ -10,10 +10,10 @@ const Contact = () => {
     const [email, setEmail] = useState('')
     const submit = (e) => {
         e.preventDefault();
-        if (firstName.length == 0 || lastName.length == 0 ) {
+        if (firstName.length === 0 || lastName.length === 0 ) {
             alert("Name can't be empty!")
         }
-        else if (email.length == 0) {
+        else if (email.length === 0) {
             alert("Please provide a valid Email ID!")
         }
         else {

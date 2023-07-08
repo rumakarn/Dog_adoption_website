@@ -23,21 +23,24 @@
     margin: 3rem;
 }
 .input-fields{
-    display: flex;  
+    display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .main input{
-    margin: 2rem 0;
+    margin: 2rem;
     background-color: white;
     color:grey;
     border-radius: 5px;
-    width:100%;
-   padding:.5rem 1rem;
-   justify-content: space-between;
+    width:50%;
+    padding:0.5rem .5rem; 
     border: 3px solid rgba(120,120,120,0.5);
+   
 }
 .main{
     margin-top: 2rem;
+    
 }
 .submit-Button{
     font-weight: 500;
@@ -137,8 +140,8 @@
 .icon-section a:hover{
     color:rgb(228, 26, 60);
 }
-@media (max-width:716){
-    .separator{
-        display: flex;
+@media (max-width: 716px) {
+    .main input {
+        width: 100%;
     }
 }

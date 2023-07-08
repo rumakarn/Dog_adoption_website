@@ -7,7 +7,7 @@ const Accordion = ({ heading, answer }) => {
         
         <>
             <div className="main-heading">
-            <p onClick={()=>setShow(!show)}>➕</p>
+            <p  className="plus" onClick={()=>setShow(!show)}>➕</p>
             <h3>{heading}</h3>   
             </div>
             {show && <p>{answer}</p>}
