@@ -74,10 +74,10 @@ const Contact = () => {
               </div>
                 <div className="footer-text"> @2023| by adoptadoggo foundation</div>
                 <div className="icon-section">
-                <a href="#"><FacebookIcon /></a>
-                    <a href="#"><InstagramIcon /></a>
-                    <a href="#"><TwitterIcon /></a>
-                    <a href="#"><MailOutlineIcon /></a>
+                <a href={() => false}><FacebookIcon /></a>
+                    <a href={() => false}><InstagramIcon /></a>
+                    <a href={() => false}><TwitterIcon /></a>
+                    <a href={() => false}><MailOutlineIcon /></a>
                     
 
                 </div>
